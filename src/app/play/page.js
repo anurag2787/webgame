@@ -328,7 +328,7 @@ export default function TicTacToe() {
                     <div className="bg-white p-8 rounded-xl shadow-2xl max-w-md text-center">
                         {winner === 'Draw' ? (
                             <>
-                                <h2 className="text-3xl font-bold mb-4 text-amber-800">It's a Draw!</h2>
+                                <h2 className="text-3xl font-bold mb-4 text-amber-800">Its a Draw!</h2>
                                 <p className="mb-6 text-lg">Well played by both players!</p>
                             </>
                         ) : (
