@@ -19,7 +19,7 @@ export default function TicTacToe() {
 
     useEffect(() => {
         // Initialize socket connection
-        const newSocket = io("http://localhost:9000", {
+        const newSocket = io("https://webgamebackend.onrender.com", {
             transports: ["websocket"]
         });
 
